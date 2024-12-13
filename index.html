@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=arrow_forward" />
+    <link rel="stylesheet" href="lightbox.min.css">
     <title>FahriOfficial</title>
 </head>
 <body>
@@ -43,7 +44,9 @@
             </div>
 
             <div class="btn-group">
-                <a href="#" class="btn">Hire</a>
+                <a href="img/port.jpg" data-lightbox="roadtrip" class="btn">CV Resume</a>
+
+
                 <a href="#contact" class="btn">Contact</a>
             </div>
         </div>
@@ -244,7 +247,7 @@
             
             <div class="portfolio__nav">
                 <button class="btn mixitup-control-active" data-filter=".all">All</button>
-                <button class="btn mixitup-control-active" data-filter=".web">Web Apps</button>
+                <button class="btn mixitup-control-active" data-filter=".web">Website</button>
                 <!-- <button class="btn mixitup-control-active" data-filter=".game">Games</button> -->
                 <button class="btn mixitup-control-active" data-filter=".design">Design</button>
             </div>
@@ -300,6 +303,14 @@
                     <div class="btn">Review Projects</div>
                 </div>
 
+                <div class="portfolio__card mix all web">
+                    <img src="img/port1.png" alt="project">
+                    <h3>Resume CV Page</h3>
+                    <p>Dibuat dengan menggunakan  bahasa pemrograman HTML,CSS,JavaScript.Membangun tampilan 
+                        CV Resume Page yang responsif dan menarik.</p>
+                    <div class="btn">Review Projects</div>
+                </div>
+
                 <!-- Design -->
                 <div class="portfolio__card mix all design">
                     <img src="img/design.jpg" alt="project">
@@ -314,7 +325,7 @@
 
 
        <!-- Blog -->
-       <section class="blogs" id="blogs">
+       <section class="blogs" id="blog">
         <h1 class="heading">Our <span>Blogs</span></h1>
 
         <div class="box-container">
@@ -423,6 +434,7 @@
          </footer>
 </body>
 
+<script src="lightbox-plus-jquery.min.js"></script>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.3.1/mixitup.min.js" integrity="sha512-nKZDK+ztK6Ug+2B6DZx+QtgeyAmo9YThZob8O3xgjqhw2IVQdAITFasl/jqbyDwclMkLXFOZRiytnUrXk/PM6A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script src="script.js"></script>
